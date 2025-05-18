@@ -105,9 +105,9 @@ Pasos organizados ([Metricool, 2025](https://metricool.com/es/guia-de-facebook-a
    - Nombre: "TiendaX_Pixel".
    - Copia código en `<head>` del sitio. Usa Google Tag Manager si necesario.
    - Genera **Token de Acceso**:
-     ```javascript
-     EAAfLXAyD0JsBO0CQmxCqYiihSJBmeLWVL6ZAlmXQR0uM9vSzvbMhZArSFQnoZBWo5Bunuoe1grrJtUxSsGNEXFe01ZCbw2T1iZBQ9gKVFMi5cJZB3rJhrIR2F1Vi3B22kWNh2Ij5NxKUuzlvs3s3n5LrQenBZB9R4BODkCPHw6VArYsnWGo6xjOulzrRnjvzowpcQZDZD
-     ```
+```javascript
+EAAgPZQwXy9kBOz7TjKnRfLmV2HsYpQR8mX3JtN4vW9uB2cZkHsG9qL5JrTfX8nPqW4vRtY2mZBx6K9vCnJ3mF8sT2QwL9pY7HsV4rM3kZCzX2nB5tY8qW3JrN6vPqT9mL8kZ2rY5nT3mX7vW9uB2cZkHsG9qL5JrTfX8nPqW4vRtY2mZDZD
+```
    - Verifica con **Meta Pixel Helper** (Chrome).
 
 2. **Crea Público Personalizado**:

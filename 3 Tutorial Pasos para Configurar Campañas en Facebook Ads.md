@@ -60,10 +60,10 @@ Este documento describe los pasos exactos para configurar campañas en el Admini
 6. (Opcional) Genera un **Token de Acceso**:
    - Ve a **Administrador de Eventos** > selecciona tu píxel > **Configuración** > **Generar Token de Acceso**.
    - Ejemplo:
-     ```javascript
-     EAAfLXAyD0JsBO0CQmxCqYiihSJBmeLWVL6ZAlmXQR0uM9vSzvbMhZArSFQnoZBWo5Bunuoe1grrJtUxSsGNEXFe01ZCbw2T1iZBQ9gKVFMi5cJZB3rJhrIR2F1Vi3B22kWNh2Ij5NxKUuzlvs3s3n5LrQenBZB9R4BODkCPHw6VArYsnWGo6xjOulzrRnjvzowpcQZDZD
-     ```
-7. Verifica el píxel con **Meta Pixel Helper** (extensión de Chrome).
+```javascript
+EAAgPZQwXy9kBOz7TjKnRfLmV2HsYpQR8mX3JtN4vW9uB2cZkHsG9qL5JrTfX8nPqW4vRtY2mZBx6K9vCnJ3mF8sT2QwL9pY7HsV4rM3kZCzX2nB5tY8qW3JrN6vPqT9mL8kZ2rY5nT3mX7vW9uB2cZkHsG9qL5JrTfX8nPqW4vRtY2mZDZD
+```
+1. Verifica el píxel con **Meta Pixel Helper** (extensión de Chrome).
 
 ### 4.2. Crear Público Personalizado
 1. En **Ads Manager**, ve a **Públicos** (menú lateral).

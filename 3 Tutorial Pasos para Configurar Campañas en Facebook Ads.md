@@ -49,9 +49,9 @@ Este documento describe los pasos exactos para configurar campañas en el Admini
 
 ---
 
-## 4. Crear Público Personalizado con Píxel
+## 4. Crear Público Personalizado con Píxel y Segmentos del Público
 
-### 4.1. Instalar Conjunto de Datos (Antes llamado "Píxel")
+### 4.1.1 Instalar Conjunto de Datos (Antes llamado "Píxel")
 1. Ve a **Business Manager** ([business.facebook.com](https://business.facebook.com)).
 2. Navega a **Todas las herramientas** > **Configuración de Negocio** > **Orígenes de Datos** > **Conjunto de datos.**
 3. Haz clic en **Agregar**.
@@ -67,7 +67,7 @@ EAAgPZQwXy9kBOz7TjKnRfLmV2HsYpQR8mX3JtN4vW9uB2cZkHsG9qL5JrTfX8nPqW4vRtY2mZBx6K9v
 1. Verifica el píxel con **Meta Pixel Helper** (extensión de Chrome).
 
 
-#### 4.1.2. Configurar Eventos para el Píxel
+#### 4.1.1.2. Configurar Eventos para el Píxel
 
 1. Asegúrate de que el píxel esté instalado en tu sitio web (ver sección 4.1).
 2. Agrega código para eventos estándar o personalizados:
@@ -98,7 +98,7 @@ graph TD
     A --> F[Verificar Píxel: Meta Pixel Helper]
 ```
 
-### 4.2. Crear Público Personalizado
+### 4.1.2. Crear Público Personalizado
 1. En **Ads Manager**, ve a **Públicos** (menú lateral).
 2. Haz clic en **Crear Público** > **Público Personalizado** > **Sitio Web**.
 3. Selecciona tu píxel.
@@ -108,7 +108,7 @@ graph TD
 6. Nombra el público (ejemplo: "Visitantes_Sitio_30d").
 7. Haz clic en **Crear**.
 
-### 4.3. Crear Público Similar
+### 4.1.3. Crear Público Similar
 1. En **Públicos**, haz clic en **Crear Público** > **Público Similar**.
 2. Selecciona el público personalizado (ejemplo: "Visitantes_Sitio_30d").
 3. Elige país/región (ejemplo: México).
@@ -116,6 +116,14 @@ graph TD
 	1. Recomendable dejarlo en 1% al empezar y 10% cuándo la marca sea más famosa
 5. Nombra el público (ejemplo: "Lookalike_Visitantes_1%").
 6. Haz clic en **Crear**.
+### 4.2.1 Crear Segmentos del público
+1. En **Ads Manager** ve a **Configuración de publicidad** -> **Segmentos del público**
+2. En **Segmentos del público** selecciona **público activo:** Crear un público personalizado
+	1. Seleccionas **Sitio Web** y eliges tu Pixel.
+	2. Le defines eventos personalizados o Todos los eventos. Este público es del que todavía no compra.
+3. En **Segmentos del público** selecciona **Clientes actuales:** Crear un público personalizado
+	1. Seleccionas **Sitio Web** y eliges tu Pixel.
+	2. Le defines tu evento personalizado de compra. Este público ya se le puede considerar cliente
 
 ---
 
@@ -150,7 +158,9 @@ graph TD
 6. Elige origen (ejemplo: público personalizado o Instagram).
 7. Configura país y tamaño (ejemplo: México, 1%).
 8. Nombra el público (ejemplo: "Lookalike_Instagram_1%").
-9. Haz clic en **Crear** y **Publicar**.
+9. Seleccionas la campaña -> **Presupuesto** -> Elegir "Presupuesto del conjunto de anuncios". Solo usar "Presupuesto de la campaña" cuando el público este bien definido.
+10. Seleccionas el **Conjunto de anuncios** -> **Presupuesto y calendario** -> Estrategia de presupuesto: Repartir equitativamente el presupuesto entre los Conjuntos de Anuncios.
+11. Haz clic en **Crear** y **Publicar**.
 
 ---
 
@@ -162,6 +172,7 @@ graph TD
 4. Modifica elementos (imagen, texto, público) para pruebas A/B.
 5. Repite pasos de la sección 5 para cada nuevo anuncio.
 6. Publica y monitorea en **Ads Manager** (clics, conversiones).
+7. 
 
 ---
 
@@ -178,3 +189,10 @@ graph TD
     G --> H[Publicar y Duplicar: Pruebas A/B]
     H --> I[Monitorear Resultados]
 ````
+
+# Notas Finales
+1. Crear campaña de presentación (70% del presupuesto total)
+	1. Crear 3 conjuntos de anuncios: Intereses, público similar y segmentación abierta
+		1. Generar 3 a 6 anuncios por cada conjunto de anuncios.
+2. Después sigues con la segunda campaña:
+	1. [[4 Tutorial Pasos para Segunda Campaña Retargeting]]
